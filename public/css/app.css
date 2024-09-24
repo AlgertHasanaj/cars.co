@@ -1,0 +1,144 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f0f3f7;
+    color: #555d69;
+    font-family: 'AvenirNextLTPro-Regular', sans-serif;
+    align-items: center;
+    /* overflow: hidden; */
+}
+/* navbar css */
+.navbar{
+    position:fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    /* background-color:#f0f3f7; */
+    
+}
+#navbarback.fixed {
+    background-color: #f0f3f7; /* Background color when scrolling */
+  }
+.navtext{
+    text-decoration: none;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color:#555d69;
+}
+.navbar-brand:hover{
+    color: black;
+}
+
+.nav-link:hover{
+    
+    color: rgb(139, 100, 100);
+}
+.drpi{
+    background: none;
+    border: none;
+}
+.drpi:hover{
+background: none;
+color:rgb(139, 100, 100);
+}
+.search{
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid #808080;
+    padding: 10px;
+    color: #808080;
+    width: 100%;
+}
+.search:focus{
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid #808080;
+    padding: 10px;
+    color: #808080;
+    width: 100%;
+}
+/* fund navbar css */
+/* VIDEO SECTION */
+#fullscreen-video{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* fund video section */
+/* footer css */
+/* #footer{
+    background-color: #3b5375;
+    
+    color:#f0f3f7 ;
+} */
+#emaili{
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+}
+.input{
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid #808080;
+    padding: 10px;
+    color: #808080;
+    width: 100%;
+}
+/* fund footer css */
+
+/* carousel styles */
+/* #carouselExampleCaptions{
+    margin-top: 0;
+    padding: 0;
+    position: relative;
+} */
+/* contact blade css */
+#contact{
+    position: relative;
+    padding-top: 1px;
+    padding-bottom: 50px;
+    
+}
+.formstyle{
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid #808080;
+    padding: 10px;
+    color: #808080;
+    width: 100%;
+}
+.buton{
+    position: relative;
+    border-color: #d1d9e6;
+    background-color: #3b5375;
+    padding: 10px 85.5px;
+    float: right;
+    
+}
+.buton:hover{
+    background-color: #555d69;
+    border:none;
+}
+/* fund contact blade css */
+/* why us css */
+#h2aboutus{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 4rem;
+}
+#imgovertext{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #d1d9e6;
+}
+#whyuscard{
+    
+}
+/* fund why us css */
